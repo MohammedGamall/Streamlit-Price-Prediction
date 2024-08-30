@@ -1,6 +1,6 @@
-joblib
+joblib==1.1.1
 pandas
 plotly
 seaborn
 matplotlib
-scikit-learn
+scikit-learn==1.1.1
