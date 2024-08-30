@@ -4,3 +4,4 @@ plotly
 seaborn
 matplotlib
 scikit-learn==1.1.1
+streamlit==1.38.0
