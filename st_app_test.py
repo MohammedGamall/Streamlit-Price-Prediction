@@ -60,7 +60,7 @@ def home_page():
     st.header("Objective")
     st.markdown("Providing insights for foriegn students for apartment prices according the specs they require")
     st.header("Data Sample for your inputs")
-    st.dataframe(df[['total_sqft', 'bath', 'balcony', 'bhk', 'price_per_sqft', 'location']].head())
+    st.dataframe(df[['total_sqft', 'bath', 'balcony', 'bhk', 'price_per_sqft', 'standardized_location']].head())
 
 def inputs():
     st.title("Predict")
